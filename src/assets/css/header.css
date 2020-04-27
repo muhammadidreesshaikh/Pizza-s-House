@@ -1,0 +1,43 @@
+.header
+{
+    background-color: black;
+    padding: 1% 0;
+}
+
+.header .logo img
+{
+    width: 35%;
+    height: auto;
+}
+
+.header .nav
+{
+    float: right;
+    padding-top: 5%;
+}
+
+.header .nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.header .nav li 
+{
+    padding: 0 16px;
+    font-size: 15px;
+    display: block;
+    border-bottom: 1px solid transparent
+}
+
+.header .nav a
+{
+    color: white;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.header .nav li a:hover
+{
+    border-bottom: 2px solid #df0101;
+}
