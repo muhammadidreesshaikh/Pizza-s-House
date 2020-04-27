@@ -1,0 +1,45 @@
+.slider
+{
+    background-image: url(../img/z4.jpg);
+    width: 100%;
+    height: 83vh;
+    padding: 15% 0 5% 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #383838;
+}
+
+.slider h1
+{
+    color: white;
+    font-size: 45px;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.slider .button
+{
+    margin-top: 10%;
+}
+
+.slider .button a
+{
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.slider .button a:hover
+{
+    background-color: black;
+    color: red;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
