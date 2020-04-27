@@ -1,2 +1,2 @@
-# pizza-s-house
+# pizzas-house
 react.app
