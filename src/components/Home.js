@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from '../layout/Slider';
 import '../assets/css/home.css';
 
 import axios from 'axios';
@@ -32,6 +33,7 @@ class Home extends React.Component{
     render() {
         return(
             <div>
+                <Slider />
                 <div className="home">
                    <div className="container">
                        <div className="row">
@@ -41,24 +43,12 @@ class Home extends React.Component{
                                 <div className="seprator"></div>
                             </div>
     
-                            {
-                                this.state.homeData.map(
-                                    (home, i) => {
-                                        return(
-                                            <div className="col-sm-12 col-md-12 col-lg-12 px-0" key={i}>
-                                                {home}
-                                            </div>
-                                        )
-                                    }
-                                )
-                            }
-    
                        </div>
                    </div>
                 </div>
             </div>
     
-        );
+        ); 
     }
 
 }

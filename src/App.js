@@ -24,13 +24,13 @@ function App() {
       <div className="App">
 
         <Header />
-        <Slider />
         
           {/* all components */}
           <div>
             <Switch>
-              {/* <Route exact path='/' component={Planets}></Route> */}
+              <Route exact path='/' component={Home}></Route>
               <Route exact path='/home' component={Home}></Route>
+              <Route exact path='/slider' component={Slider}></Route>
               <Route exact path='/oderNow' component={OderNow}></Route>
               <Route exact path='/menu' component={Menu}></Route>
               <Route exact path='/location' component={Location}></Route>
