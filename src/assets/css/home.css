@@ -1,0 +1,61 @@
+.home
+{
+    padding: 7% 0;
+}
+
+.home .main
+{
+    background-color: #fffffff0;
+    padding: 15% 8%;
+    border-radius: 5px;
+}
+
+.home .main .buttons
+{
+    text-align: center;
+}
+
+.home .main .buttons a
+{
+    border: 1px solid #1eb166;
+    background-color: #1eb166;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.home .main select
+{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin-top: 13%;
+}
+
+.home .main .btn1
+{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.home .main .btn1 a
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 20%;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.home .main .btn1 a:hover
+{
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
