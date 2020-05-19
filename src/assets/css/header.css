@@ -26,6 +26,7 @@
 {
     padding: 0 16px;
     font-size: 15px;
+    font-weight: bold;
     display: block;
     border-bottom: 1px solid transparent
 }

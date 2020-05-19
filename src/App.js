@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import'./App.css';
 
 import Header from './layout/Header';
 import Footer from './layout/Footer';
@@ -14,7 +14,7 @@ import Cart from './components/Cart';
 import { 
   BrowserRouter as Router, 
   Route,
-  Switch 
+  Switch   
 } from 'react-router-dom';
 
 

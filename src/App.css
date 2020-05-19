@@ -3,8 +3,9 @@ body
   font-family: 'Roboto', sans-serif !important;
   overflow-x: hidden;
   margin-bottom: 0 auto;
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
   font-family: 'Open Sans', sans-serif;
+  background-image: url('./assets/img/body3.jpg') !important;
 }
 
 p, h1 ,h2 ,h3, h4, h5, h6 {

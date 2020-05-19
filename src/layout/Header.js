@@ -25,6 +25,7 @@ function Header() {
                                     <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="/location">Location</Link></li>
                                     <li><Link to="/cart">Cart</Link></li>
+                                    <li><Link to="/cart">Login</Link></li>
                                  </ul>
                             </div>
                         </div>
