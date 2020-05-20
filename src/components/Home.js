@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from '../layout/Slider';
 import '../assets/css/home.css';
+import { Link } from 'react-router-dom';
 
 import image from '../assets/img/d7.jpg';
 import image1 from '../assets/img/d10.jpg';
@@ -114,7 +115,8 @@ class Home extends React.Component{
 
                                 <div className="col-sm-12 col-md-12 col-lg-12">
                                     <div className="btn2">
-                                        <a href="#">View All Deals </a>
+                                        {/* <a href="#">View All Deals </a> */}
+                                        <Link to="/homedetail">View All Deals</Link>
                                     </div>
                                 </div>
 
@@ -146,15 +148,11 @@ class Home extends React.Component{
                     </div>
                 </section>
 
-                
-
-
- 
             </div>
     
         ); 
     }
-
+ 
 }
 
 
