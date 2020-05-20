@@ -44,41 +44,41 @@ class Home extends React.Component{
                         <div className="container">
                             <div className="row justify-content-center">
             
-                                    <div className="col-sm-4 col-md-4 col-lg-4">
-                                        <div className="main">
-                                            <div className="buttons">
-                                                <a href='#'>Delivery</a> <a href='#'>Take Away</a>
-                                            </div>
+                                <div className="col-sm-4 col-md-4 col-lg-4">
+                                    <div className="main">
+                                        <div className="buttons">
+                                            <a href='#'>Delivery</a> <a href='#'>Take Away</a>
+                                        </div>
 
-                                            <select>
-                                                <option value="volvo">Select City</option>
-                                                <option value="saab">Karachi</option>
-                                                <option value="opel">Lahore </option>
-                                                <option value="audi">Faisalabad</option>
-                                                <option value="saab">Rawalpindi</option>
-                                                <option value="opel">Hyderabad </option>
-                                                <option value="audi">Quetta</option>
-                                                <option value="audi">Peshawar</option>
-                                                <option value="audi">Gujranwala</option> 
-                                            </select>
+                                        <select>
+                                            <option value="volvo">Select City</option>
+                                            <option value="saab">Karachi</option>
+                                            <option value="opel">Lahore </option>
+                                            <option value="audi">Faisalabad</option>
+                                            <option value="saab">Rawalpindi</option>
+                                            <option value="opel">Hyderabad </option>
+                                            <option value="audi">Quetta</option>
+                                            <option value="audi">Peshawar</option>
+                                            <option value="audi">Gujranwala</option> 
+                                        </select>
 
-                                            <select>
-                                                <option value="volvo">Select Area</option>
-                                                <option value="saab">Liaquatabad</option>
-                                                <option value="opel">Nazimabad </option>
-                                                <option value="audi">Gulzar-e-Hijri</option>
-                                                <option value="saab">Gulshan-e-Iqbal</option>
-                                                <option value="opel">Jamshed Quarters </option>
-                                                <option value="audi">Lyari</option>
-                                                <option value="audi">Mango Pir</option>
-                                                <option value="audi">Shah Faisal</option> 
-                                            </select>
+                                        <select>
+                                            <option value="volvo">Select Area</option>
+                                            <option value="saab">Liaquatabad</option>
+                                            <option value="opel">Nazimabad </option>
+                                            <option value="audi">Gulzar-e-Hijri</option>
+                                            <option value="saab">Gulshan-e-Iqbal</option>
+                                            <option value="opel">Jamshed Quarters </option>
+                                            <option value="audi">Lyari</option>
+                                            <option value="audi">Mango Pir</option>
+                                            <option value="audi">Shah Faisal</option> 
+                                        </select>
 
-                                            <div className='btn1'>
-                                                <a href="#">Oder Now</a>
-                                            </div>
+                                        <div className='btn1'>
+                                            <a href="#">Oder Now</a>
                                         </div>
                                     </div>
+                                </div>
             
                             </div>
                         </div>
@@ -117,7 +117,30 @@ class Home extends React.Component{
                                         <a href="#">View All Deals </a>
                                     </div>
                                 </div>
-                                
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="follow">
+                        <div className="container">
+                            <div className="row">
+
+                                <div className="col-md-6">
+                                    <div className="vist">
+                                        <h6>Interested?</h6>
+                                        <h3>CONTACT US AND SCHEDULE YOUR VISIT</h3>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-6">
+                                    <div className="press">
+                                        <a href="#">Contact Us</a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

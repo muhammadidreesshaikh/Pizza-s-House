@@ -109,3 +109,47 @@
     transition: 0.5s;
 }
 
+.follow
+{
+    background-color: #005b88b8;
+    padding: 5% 0;
+}
+
+.follow .vist h6
+{
+    font-size: 21px;
+    color: white;
+}
+
+.follow .vist h3
+{
+    color: white;
+    padding-top: 1%;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.follow .press
+{
+    float: right;
+    margin-top: 5%;
+}
+
+.follow .press a
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.follow .press a:hover
+{
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
