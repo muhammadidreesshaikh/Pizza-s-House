@@ -59,3 +59,53 @@
     transition: 0.5s;
 }
 
+.deal 
+{
+    background-color: white;
+    padding: 7% 0;
+    text-align: center;
+}
+
+.deal h1
+{
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+}
+
+.deal .image
+{
+    margin-top: 15%;
+}
+
+.deal .image img
+{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px grey;
+}
+
+.deal .btn2
+{
+    margin-top: 8%;
+}
+
+.deal .btn2 a
+{
+    border: 1px solid #1eb166;
+    border-radius: 4px;
+    padding: 12px 30px;
+    background-color: #1eb166;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.deal .btn2 a:hover
+{
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
