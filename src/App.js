@@ -26,7 +26,7 @@ function App() {
 
         <Header />
         
-          {/* all components */}
+          {/* all components */} 
           <div>
             <Switch>
               <Route exact path='/' component={Home}></Route>

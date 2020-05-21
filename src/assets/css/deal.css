@@ -1,0 +1,60 @@
+.deals
+{
+    padding: 5% 0 7% 0;
+    text-align: center;
+    background-color: #ffffffa6;
+}
+
+.deals .main .image
+{
+    margin-top: 17%;
+}
+
+.deals .main .image img
+{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+}
+
+.deals .main .wrapper
+{
+    margin-top: 3%;
+}
+
+.deals .main .wrapper h2
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.deals .main .wrapper h6
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.deals .main .wrapper .press 
+{
+    margin-top: 6%;
+}
+
+.deals .main .wrapper .press a 
+{
+    border: 1px solid #1eb166;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: #1eb166;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+.deals .main .wrapper .press a:hover
+{
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}

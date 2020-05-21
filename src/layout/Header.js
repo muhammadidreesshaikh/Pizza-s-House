@@ -20,9 +20,9 @@ function Header() {
                             <div className="nav">
                                  <ul>
                                     <li><Link to="/home">Home</Link></li>
-                                    <li><Link to="/odernow">Oder Now</Link></li>
                                     <li><Link to="/menu">Menu</Link></li>
                                     <li><Link to="/deal">Deals</Link></li>
+                                    <li><Link to="/odernow">Oder Now</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="/cart">Cart</Link></li>
                                     <li><Link to="/login">Login</Link></li>
