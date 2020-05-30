@@ -116,7 +116,7 @@ class Home extends React.Component{
                                 <div className="col-sm-12 col-md-12 col-lg-12">
                                     <div className="btn2">
                                         {/* <a href="#">View All Deals </a> */}
-                                        <Link to="/homedetail">View All Deals</Link>
+                                        <Link to="/deal">View All Deals</Link>
                                     </div>
                                 </div>
 

@@ -1,1 +1,58 @@
- 
+.dealdetail
+{
+    background-color: #ffffffa6;
+    padding: 7% 0;
+}
+
+.dealdetail .image img
+{
+    width: 70%;
+    height: auto;
+}
+
+.dealdetail .wrapper 
+{
+    margin-top: 20%;
+}
+
+.dealdetail .wrapper .payment
+{
+    
+}
+
+.dealdetail .wrapper .payment h4
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .dealdetail .wrapper .payment h6
+{
+    
+} */
+
+.dealdetail .wrapper .payment form
+{
+    padding-left: 15%;
+}
+
+.dealdetail .wrapper .payment form input
+{
+    
+}
+
+.dealdetail .cart
+{
+    margin-top: 10%;
+}
+
+.dealdetail .cart a
+{
+    border: 1px solid #1eb166;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: #1eb166;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+} 

@@ -11,6 +11,8 @@ import image3 from '../assets/img/d5.jpg';
 import image4 from '../assets/img/d3.jpg';
 import image5 from '../assets/img/d6.jpg';
 
+import DealDataHolding from '../shared/services/deal-data-holding';
+
 
 // arary
 let DealData = [
@@ -78,6 +80,11 @@ class Deal extends React.Component{
     //     })
     // }
 
+    dealData(data) {
+        DealDataHolding.getData(data);
+        this.props.history.push('/dealdetail');
+    }
+
 
     render() { 
         return(
@@ -86,7 +93,7 @@ class Deal extends React.Component{
                 <div className="deals">
                     <div className="container">
                         <div className="row">
-
+ 
                            { 
                                DealData.map( 
                                    (deal, i) => {
@@ -99,10 +106,12 @@ class Deal extends React.Component{
                                                     </div>
                     
                                                     <div className="wrapper">
-                                                        <h2>{deal.heading}</h2>  <h6>{deal.price}</h6>
+                                                        <h2>{deal.heading}</h2>
+                                                        <h6>{deal.price}</h6>
                      
                                                         <div className="press">
-                                                            <Link to="/dealdetail">{deal.button}</Link>
+                                                            {/* <Link to="/dealdetail">{deal.button}</Link> */}
+                                                            <a onClick={()=>{this.dealData(deal)}}>{deal.button}</a>
                                                         </div>
                                                     </div>
                 
