@@ -139,7 +139,8 @@ class Home extends React.Component{
 
                                 <div className="col-md-6">
                                     <div className="press">
-                                        <a href="#">Contact Us</a>
+                                        {/* <a href="#">Contact Us</a> */}
+                                        <Link to="/contact">View All Deals</Link>
                                     </div>
                                 </div>
 

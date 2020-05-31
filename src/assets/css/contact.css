@@ -1,0 +1,58 @@
+.contact
+{
+    padding: 6% 0 6% 0;
+    text-align: center;
+}
+
+.contact input, .contact textarea 
+{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    padding: 8px 0 8px 7px;
+    border: 1px solid #fff;
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.contact input::placeholder, .contact textarea::placeholder
+{
+    color: rgb(150, 150, 150);
+}
+
+.contact select
+{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 0 8px 7px;
+    color: rgb(150, 150, 150);
+    border: 1px solid #fff;
+    width: 49%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.contact .cart
+{
+    margin-top: 6%;
+}
+
+.contact .cart a
+{
+    border: 1px solid #1eb166;
+    border-radius: 4px;
+    padding: 12px 30px;
+    background-color: #1eb166;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.contact .cart a:hover
+{
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
